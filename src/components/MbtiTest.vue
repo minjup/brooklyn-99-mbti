@@ -72,11 +72,11 @@
   $transition: 0.3s;
 
   button {
-    font-weight: 600;
+    font-weight: 400;
     border: solid $border-width $color;
     outline: 0;
     padding: 1rem 4rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 0.08rem;
     background-color: $color-bg;
     border-radius: $radius;
@@ -100,5 +100,13 @@
         box-shadow: none;
       }
     }
+  }
+
+  h3 {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 500;
+    font-size: 1.3rem;
   }
 </style>
